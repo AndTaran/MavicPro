@@ -53,6 +53,15 @@
     &+.menu__list-item {
       padding-left: 20px;
     }
+
+    // У Fullpage.js появляется клас active у активного блока и на него певесил эффект
+    &.active a {
+      color: #f5c15f;
+    }
+
+    &:hover {
+      color: #f5c15f;
+    }
   }
 
   &__list-phone {
@@ -176,7 +185,7 @@
   right: 0;
   cursor: pointer;
   z-index: 5;
-  bottom: -50px;
+  bottom: -48px;
   outline: none;
 
   svg {
